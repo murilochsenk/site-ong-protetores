@@ -1,0 +1,418 @@
+/* CONFIGURAÇÕES GERAIS */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #e53935, #fb8c00);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #00000050;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  padding: 25px;
+}
+
+/* MISSÃO */
+.missao {
+  background-color: #ffe8e6;
+  border-left: 6px solid #e53935;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.missao strong {
+  color: #c62828;
+}
+
+/* VALORES */
+.valores {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.valores ul {
+  list-style: none;
+  padding: 0;
+}
+
+.valores li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+/* ADOÇÃO LATERAL */
+.galeria-animais {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.animal-lateral {
+  display: flex;
+  align-items: center;
+  background-color: #fff3f0;
+  border-left: 6px solid #e53935;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.animal-lateral img {
+  width: 160px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.animal-lateral .info h3 {
+  margin-top: 0;
+  color: #e53935;
+  font-size: 1.5em;
+}
+
+.animal-lateral .info p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 8px 0 0;
+}
+
+/* APELO */
+.apelo {
+  background-color: #ffe8e6;
+  border-left: 6px solid #e53935;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.apelo h2 {
+  margin-top: 0;
+  color: #e53935;
+}
+
+/* FORMAS DE DOAÇÃO */
+.formas-doacao {
+  background-color: #fffde7;
+  border-left: 6px solid #fb8c00;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.formas-doacao h2 {
+  color: #fb8c00;
+}
+
+.formas-doacao ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.formas-doacao li {
+  margin-bottom: 12px;
+  font-size: 1.05em;
+}
+
+/* QR CODE */
+.qr-code {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code img {
+  max-width: 200px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* IMPACTO */
+.impacto {
+  background-color: #e3f2fd;
+  border-left: 6px solid #42a5f5;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.impacto h2 {
+  color: #1565c0;
+  margin-bottom: 15px;
+}
+
+.numeros-impacto {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numeros-impacto div {
+  flex: 1 1 150px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+/* CAMPANHA */
+.campanha {
+  background-color: #fff3f0;
+  padding: 30px;
+  margin-top: 40px;
+  border-left: 6px solid #fb8c00;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.campanha h2 {
+  color: #fb8c00;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+}
+
+.campanha p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.campanha img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.botao-campanha {
+  display: inline-block;
+  background-color: #fb8c00;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+
+.botao-campanha:hover {
+  background-color: #f57c00;
+}
+
+/* DEPOIMENTO */
+.depoimento {
+  background-color: #f1f8e9;
+  padding: 30px;
+  border-left: 6px solid #8bc34a;
+  border-radius: 8px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.depoimento h2 {
+  color: #558b2f;
+  margin-bottom: 10px;
+}
+
+.depoimento blockquote {
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+}
+
+/* FOOTER */
+footer {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 40px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+/* CONTATO — Boas-vindas */
+.boas-vindas-contato {
+  background-color: #ffe8e6;
+  border-left: 6px solid #e53935;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.boas-vindas-contato h2 {
+  margin-top: 0;
+  color: #e53935;
+}
+
+.boas-vindas-contato p {
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+
+/* CONTATO — Formulário */
+.formulario-contato {
+  background-color: #fffde7;
+  border-left: 6px solid #fb8c00;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.formulario-contato h3 {
+  color: #fb8c00;
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+form input[type="submit"] {
+  background-color: #fb8c00;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #f57c00;
+}
+
+/* CONTATO — Informações */
+.informacoes-contato {
+  background-color: #e3f2fd;
+  border-left: 6px solid #42a5f5;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.informacoes-contato h3 {
+  color: #1565c0;
+  margin-top: 0;
+}
+
+.informacoes-contato ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.informacoes-contato li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+/* CONTATO — Imagem decorativa */
+.imagem-contato {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.imagem-contato img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.07);
+}
+/* HISTÓRIAS DE ADOÇÃO */
+.historia {
+  background-color: #e1f5fe;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.historia h3 {
+  color: #0277bd;
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+
+.historia p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 10px 0 0;
+  color: #333;
+}
+
+.historia img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  object-fit: cover;
+}
